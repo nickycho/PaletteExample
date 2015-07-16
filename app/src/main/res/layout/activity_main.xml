@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:orientation="vertical"
+                tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/dragonball"/>
+
+    <TextView
+        android:id="@+id/vibrantTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Vibrant"
+        />
+
+    <TextView
+        android:id="@+id/vibrantDarkTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Vibrant Dark"
+        />
+
+    <TextView
+        android:id="@+id/vibrantLightTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Vibrant Light"
+        />
+
+    <TextView
+        android:id="@+id/mutedTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Muted"
+        />
+
+    <TextView
+        android:id="@+id/mutedDarkTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Muted Dark"
+        />
+
+    <TextView
+        android:id="@+id/mutedLightTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Muted Light"
+        />
+
+
+        />
+
+</LinearLayout>
